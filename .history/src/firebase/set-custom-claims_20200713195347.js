@@ -1,12 +1,12 @@
 var admin = require('firebase-admin');
 
-var serviceAccount = require('../scout/conus-46e09-firebase-adminsdk-qqgby-280071d3c8.json');
+var serviceAccount = require('./react-grid-dashboard-1c21a-firebase-adminsdk-rtqex-c262a6272e.json');
 
 var uid = process.argv[2];
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://conus-46e09.firebaseio.com',
+  databaseURL: 'https://react-grid-dashboard-1c21a.firebaseio.com',
 });
 
 admin.auth().setCustomUserClaims(uid, { admin: true })
