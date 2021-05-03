@@ -43,7 +43,6 @@ header h2 {
 
 .ui.card.login-card {
   width: 450px;
-  justify-content: center;
 }
 
 .ui.form input[type='text'],

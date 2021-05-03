@@ -33,6 +33,7 @@ header h2 {
 
 .app {
   margin-top: 100px;
+  justify-content: center;
 }
 
 .login-container {
@@ -43,7 +44,6 @@ header h2 {
 
 .ui.card.login-card {
   width: 450px;
-  justify-content: center;
 }
 
 .ui.form input[type='text'],

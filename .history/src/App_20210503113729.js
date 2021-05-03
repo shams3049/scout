@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import 'semantic-ui-css/semantic.min.css'
-import './App.css';
+import 'semantic-ui-css/semantic.min.css';
 import './firebase/config';
 import './pages/Signup';
 import { Route, Switch, BrowserRouter, Redirect } from 'react-router-dom';
