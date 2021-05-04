@@ -7,8 +7,7 @@
     "rules": "storage.rules"
   },
   "hosting": {
-    "site": "conus-agriwear-scout",
-    "public": "build",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
